@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU.cpp
+ALU.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU.h
+ALU_Interface.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU_Interface.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU_Interface.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ATtiny13.cpp
+ATtiny13.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ATtiny13.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ATtiny13.h
+stdint-gcc.h
+-
+Memory.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Memory.h
+ProgramMemory.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ProgramMemory.h
+ALU.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU.h
+Instruction_Decoder.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Instruction_Decoder.h
+data_transfer.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/I_O_Registers.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Instruction_Decoder.cpp
+Instruction_Decoder.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Instruction_Decoder.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Instruction_Decoder.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Memory.h
+Registers.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Registers.h
+I_O_Registers.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/I_O_Registers.h
+Stack.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Stack.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ProgramMemory.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Registers.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Stack.h
+stack
+-
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer.cpp
+data_transfer.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer.h
+data_transfer_interface.h
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer_interface.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer_interface.h
+
+C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/main.cpp
+iostream
+-
+

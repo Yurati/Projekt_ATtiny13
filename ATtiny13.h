@@ -10,14 +10,17 @@
 #include "ProgramMemory.h"
 #include "ALU.h"
 #include "Instruction_Decoder.h"
+#include "data_transfer.h"
 
 class ATtiny13 {
 private:
     project::ALU alu_;
     project::ProgramMemory program_memory_;
     project::Memory memory_;
-    project::Instruction_Decoder instruction_decoder_;
+    project::InstructionDecoder instruction_decoder_;
+    project::DataTransfer data_transfer_;
     uint16_t program_counter_;
+    void Nop(){}
 public:
     ATtiny13(): alu_(memory_.ReadMemory(0x1F)){} //przekazanie do ALU SREG
 };

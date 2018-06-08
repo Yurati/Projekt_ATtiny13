@@ -6,7 +6,7 @@
 #define PROJEKT_ATTINY13_INSTRUCTION_DECODER_H
 
 namespace project {
-    class Instruction_Decoder {
+    class InstructionDecoder {
 
     };
 }

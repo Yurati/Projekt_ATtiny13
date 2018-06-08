@@ -26,6 +26,8 @@ namespace project{
             ADCSRB, ADCL, ADCH, ADCSRA, ADMUX, ACSR, DIDR0, PCMSK
                     ,PINB, DDRB, PORTB, EECR, EEDR, EEARL = 0;
         }
+
+
     };
 }
 #endif //PROJEKT_ATTINY13_REGISTERS_H

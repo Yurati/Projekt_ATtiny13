@@ -9,6 +9,7 @@
 
 namespace project {
     class Stack {
+        class NoSpace{};
         std::stack<char> stack_;
         char & spl_;
     public:
@@ -16,13 +17,15 @@ namespace project {
             spl_ = 0x9F;
         };
 
-        void PushBack(char & data const){
+        void Push(const char data){
             stack_.push(data);
             spl_ -= 1;
+            if (spl_ < 0x60) throw NoSpace();
         }
 
-        char PopBack(){
+        char Pop(){
             char top_of_stack = stack_.top();
+            stack_.pop();
             spl_ += 1;
             return top_of_stack;
         }

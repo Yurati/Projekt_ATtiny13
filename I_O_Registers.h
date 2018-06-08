@@ -31,6 +31,13 @@ namespace project{
             TCCR0B, MCUSR, MCUCR, OCR0A, SPMCSR, TIFR0, TIMSK0, GIFR,
             GIMSK, SPL, SREG = 0;
         }
+
+        void Sec(){ SREG |= (1<<0); }
+        void Clc(){ SREG &= ~(1<<0); }
+        void Sen(){ SREG |= (1<<2); }
+        void Cln(){ SREG &= ~(1<<2); }
+        void Sez(){ SREG |= (1<<1); }
+        void Clz(){ SREG &= ~(1<<1); }
     };
 }
 #endif //PROJEKT_ATTINY13_I_O_REGISTERS_H

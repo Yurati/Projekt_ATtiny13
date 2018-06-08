@@ -17,7 +17,7 @@ namespace project {
         I_O_Registers i_o_registers_;
         Stack stack_;
     public:
-        Memory() : stack_(*memory_[0x3D]) {
+        Memory() : stack_(*memory_[0x3D]) { // zaadresowanie rejestrów
             memory_[0x03] = &registers_.ADCSRB;
             memory_[0x04] = &registers_.ADCL;
             memory_[0x05] = &registers_.ADCH;
