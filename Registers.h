@@ -4,6 +4,9 @@
 
 #ifndef PROJEKT_ATTINY13_REGISTERS_H
 #define PROJEKT_ATTINY13_REGISTERS_H
+
+#include <cstdint>
+
 namespace project{
     class Registers{
     public:
@@ -18,13 +21,20 @@ namespace project{
         char PINB;   //0x016
         char DDRB;   //0x017
         char PORTB;  //0x018
+        //Z
+        char XLOW;   //0x1A
+        char XHIGH;  //0x1B
+        //Y
         char EECR;   //0x01C
         char EEDR;   //0x1D
+        //Z
         char EEARL;  //0x1E
+        char ZHIGH;  //0x1F
 
         Registers(){
-            ADCSRB, ADCL, ADCH, ADCSRA, ADMUX, ACSR, DIDR0, PCMSK
-                    ,PINB, DDRB, PORTB, EECR, EEDR, EEARL = 0;
+            ADCSRB, ADCL, ADCH, ADCSRA, ADMUX, ACSR, DIDR0, PCMSK,
+                    PINB, DDRB, PORTB, XLOW, XHIGH, EECR, EEDR, EEARL,
+                    ZHIGH = 0;
         }
 
 

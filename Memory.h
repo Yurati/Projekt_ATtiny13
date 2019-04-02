@@ -8,16 +8,22 @@
 #include "Registers.h"
 #include "I_O_Registers.h"
 #include "Stack.h"
+#include <array>
+#include <iostream>
 
 namespace project {
     class Memory {
     private:
-        char *memory_[0x9F];
-        Registers registers_;
+        std::array<char *, 0x9F> memory_;
         I_O_Registers i_o_registers_;
-        Stack stack_;
+        Registers registers_;
     public:
-        Memory() : stack_(*memory_[0x3D]) { // zaadresowanie rejestrów
+        Stack stack_;
+        Memory(): stack_(i_o_registers_.SPL){
+            // zaadresowanie rejestrów
+            for(int i = 0; i < 0x9F; ++i){
+                memory_[i] = new char;
+            }
             memory_[0x03] = &registers_.ADCSRB;
             memory_[0x04] = &registers_.ADCL;
             memory_[0x05] = &registers_.ADCH;
@@ -29,9 +35,12 @@ namespace project {
             memory_[0x16] = &registers_.PINB;
             memory_[0x17] = &registers_.DDRB;
             memory_[0x18] = &registers_.PORTB;
+            memory_[0x1A] = &registers_.XLOW;
+            memory_[0x1B] = &registers_.XHIGH;
             memory_[0x1C] = &registers_.EECR;
             memory_[0x1D] = &registers_.EEDR;
             memory_[0x1E] = &registers_.EEARL;
+            memory_[0x1F] = &registers_.ZHIGH;
             memory_[0x21] = &i_o_registers_.WDTCR;
             memory_[0x26] = &i_o_registers_.CLKPR;
             memory_[0x28] = &i_o_registers_.GTCCR;
@@ -56,6 +65,16 @@ namespace project {
         char & ReadMemory(const unsigned int adress){
             return *memory_[adress];
         }
+
+        Registers & ReadRegisters(){
+            return registers_;
+        }
+
+        void SetReg(const char reg, const char value){
+            *memory_[reg] = value;
+        }
+
+        ~Memory(){}
     };
 
 }

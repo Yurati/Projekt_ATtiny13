@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Projekt_ATtiny13.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Projekt_ATtiny13.dir/objects.a @CMakeFiles\Projekt_ATtiny13.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Projekt_ATtiny13.dir/objects.a -Wl,--no-whole-archive  -o Projekt_ATtiny13.exe -Wl,--out-implib,libProjekt_ATtiny13.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Projekt_ATtiny13.dir\linklibs.rsp
+/usr/bin/g++  -g   CMakeFiles/Projekt_ATtiny13.dir/main.cpp.o CMakeFiles/Projekt_ATtiny13.dir/ATtiny13.cpp.o CMakeFiles/Projekt_ATtiny13.dir/ALU.cpp.o CMakeFiles/Projekt_ATtiny13.dir/data_transfer.cpp.o  -o Projekt_ATtiny13 

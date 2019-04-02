@@ -4,11 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ALU.cpp" "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/ALU.cpp.obj"
-  "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/ATtiny13.cpp" "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/ATtiny13.cpp.obj"
-  "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/Instruction_Decoder.cpp" "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/Instruction_Decoder.cpp.obj"
-  "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/data_transfer.cpp" "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/data_transfer.cpp.obj"
-  "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/main.cpp" "C:/PROGRAMY/CLion Projects/JiMP2/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/main.cpp.obj"
+  "/home/lukasz/CLionProjects/Projekt_ATtiny13/ALU.cpp" "/home/lukasz/CLionProjects/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/ALU.cpp.o"
+  "/home/lukasz/CLionProjects/Projekt_ATtiny13/ATtiny13.cpp" "/home/lukasz/CLionProjects/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/ATtiny13.cpp.o"
+  "/home/lukasz/CLionProjects/Projekt_ATtiny13/data_transfer.cpp" "/home/lukasz/CLionProjects/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/data_transfer.cpp.o"
+  "/home/lukasz/CLionProjects/Projekt_ATtiny13/main.cpp" "/home/lukasz/CLionProjects/Projekt_ATtiny13/cmake-build-debug/CMakeFiles/Projekt_ATtiny13.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

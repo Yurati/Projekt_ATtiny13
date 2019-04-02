@@ -1,6 +1,7 @@
-#include <iostream>
+#include "ATtiny13.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    ATtiny13 a("/home/lukasz/CLionProjects/Projekt_ATtiny13/test (kopia).hex");
+    a.ExecuteAllOrders();
     return 0;
 }

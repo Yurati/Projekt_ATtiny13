@@ -14,19 +14,19 @@ namespace project {
 
         virtual void Ldi(char &Rd, const char &K) = 0;
 
-        virtual void Ld(char &Rd, const char &X) = 0;
+        virtual void Ld(char &Rd) = 0;
 
-        virtual void Ldd(char &Rd, const char &Y, const char &q) = 0;
+        virtual void Ldd(char &Rd) = 0;
 
-        virtual void Lds(char &Rd, const char &k) = 0;
+        virtual void Lds(char &Rd, const uint16_t &k) = 0;
 
-        virtual void St(char &Rd, const char &k) = 0;
+        virtual void St(char &Rd) = 0;
 
-        virtual void Std(char &Rd, const char &Y, const char &q) = 0;
+        virtual void Std(char &Rd) = 0;
 
         virtual void Sts(char &Rd, const char &k) = 0;
 
-        virtual void Lpm(char &Rd, const char &Y, const char &q) = 0;
+        virtual void Lpm(char &Rd) = 0;
 
     };
 }

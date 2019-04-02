@@ -29,7 +29,7 @@ namespace project{
         I_O_Registers(){
             WDTCR, CLKPR, GTCCR, OCR0B, DWDR, TCCR0A, OSCCAL, TCNT0,
             TCCR0B, MCUSR, MCUCR, OCR0A, SPMCSR, TIFR0, TIMSK0, GIFR,
-            GIMSK, SPL, SREG = 0;
+            GIMSK, SREG = 0;
         }
 
         void Sec(){ SREG |= (1<<0); }
