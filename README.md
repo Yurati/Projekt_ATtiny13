@@ -1,5 +1,5 @@
 # Projekt_ATtiny13
-Emulator of microcontroller ATtiny13. It reads a given program in Assembler and changes it's registers states accordingly. It
+Emulator of microcontroller ATtiny13. It reads a given program in .hex and changes it's registers states accordingly. It
 prints currently executed commands in system console.
 
 ## Description
